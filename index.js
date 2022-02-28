@@ -53,7 +53,7 @@ switch (window.location.pathname) {
 
                   break;
 
-                  case '/space-tourism-subham/index.html':
+                  case 'space-tourism-subham/index.html':
                     document.querySelector(".home").classList.add("activeNav");
                     break;
 
