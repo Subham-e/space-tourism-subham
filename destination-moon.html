@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="icon" type="image/png" sizes="32x32" href=".assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;200;400;500&family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/style.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+
+<body>
+  <header class="destinationHeader">
+    <nav class="navbar navbar-expand-md px-4 py-3">
+      <img src="assets/shared/logo.svg" alt="logo" class="navbar-brand" height="40">
+
+      <img src="assets/shared/icon-hamburger.svg" alt="" class="toggler">
+
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item home"><a class="nav-link" href="index.html"><span class="num">00</span>Home</a> </li>
+        <li class="nav-item destination"><a class="nav-link" href="destination-moon.html"><span class="num">01</span>Destination</a> </li>
+        <li class="nav-item crew"><a class="nav-link" href="crew-commander.html"><span class="num">02</span>Crew</a></li>
+        <li class="nav-item technology"><a class="nav-link" href="technology-capsule.html"><span class="num">03</span>Technology</a></li>
+      </ul>
+    </nav>
+
+    <div class="moonContainer container-fluid">
+      <h5 class="heading5 container-fluid"><span class="headingNum">01</span> Pick your destination</h5>
+
+      <div class="row destinationContainer">
+        <div class="col-lg-6 destinationImgDiv">
+          <img src="assets/destination/image-moon.png" alt="moon image" class="destination-img">
+        </div>
+        <div class="col-lg-6 destinationContent">
+          <div class="destinationMenuDiv">
+            <ul class="destinationMenu">
+              <li class="destinationList"><a class="destinationLinks moon" href="destination-moon.html">Moon</a></li>
+              <li class="destinationList"><a class="destinationLinks mars" href="destination-mars.html">Mars</a></li>
+              <li class="destinationList"><a class="destinationLinks europa" href="destination-europa.html">Europa</a></li>
+              <li class="destinationList"><a class="destinationLinks titan" href="destination-titan.html">Titan</a></li>
+            </ul>
+            <h1 class="destinationh1">MOON</h1>
+            <p class="destinationParagraph">See our planet as you’ve never seen it before. A perfect relaxing trip away to help
+              regain perspective and come back refreshed. While you’re there, take in some history
+              by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          </div>
+          <div class="destinationfooter">
+            <p class="destinationDetails item1">Avg. distance</p>
+            <p class="destinationAnswer item2">384,400 km</p>
+            <p class='destinationDetails item3'>Est. travel time</p>
+            <p class="destinationAnswer item4">3 days</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </header>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="/index.js" charset="utf-8"></script>
+</body>
+
+</html>
