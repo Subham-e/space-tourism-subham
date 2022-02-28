@@ -10,7 +10,7 @@ toggleBtn.addEventListener('click', function(err) {
 });
 
 switch (window.location.pathname) {
-  case '/crew-commander.html':
+  case 'crew-commander.html':
     document.querySelector(".commander").classList.add('activeCrewLink');
       document.querySelector(".crew").classList.add('activeNav');
     break;
